@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    body{
+        background: #000;
+        width: 100vw;
+        height: 100vh;
+        /* overflow-x: hidden; */
+    }
+    .home:hover .s-home{
+        opacity: 1;
+    }
+}
