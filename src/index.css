@@ -8,7 +8,12 @@
         height: 100vh;
         /* overflow-x: hidden; */
     }
-    .home:hover .s-home{
+    .home:hover .s-home,
+    .about:hover .s-home,
+     .menu:hover .s-home,
+      .blog:hover .s-home,
+      .contact:hover .s-home
+      {
         opacity: 1;
     }
 }
